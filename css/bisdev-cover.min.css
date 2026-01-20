@@ -1,18 +1,7 @@
 /* =========================================
    BISDEV COVER REVEAL – MINIFIED
    Compatible: Elementor / Non-Elementor
-   + iOS Pull-to-Refresh Killer
 ========================================= */
-
-html,body{overscroll-behavior-y:none}
-
-body.cover-locked{
-  position:fixed;
-  width:100%;
-  height:100%;
-  overflow:hidden;
-  touch-action:none
-}
 
 #sec{position:fixed;inset:0;z-index:999}
 
@@ -47,7 +36,9 @@ body.cover-locked{
 }
 
 /* === Audio attention === */
-.idb-attention{animation:idbPulse .8s ease-in-out 3}
+.idb-attention{
+  animation:idbPulse .8s ease-in-out 3
+}
 @keyframes idbPulse{
   0%{transform:scale(1)}
   50%{transform:scale(1.08)}
